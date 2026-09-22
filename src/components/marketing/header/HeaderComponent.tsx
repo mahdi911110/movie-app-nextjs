@@ -1,9 +1,8 @@
 'use client';
 
-import Image from "next/image";
 import Link from "next/link";
 import UserComponent from "./UserComponent";
-import { Search, X } from "lucide-react";
+import { Bookmark, Search, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { ChangeEvent, KeyboardEvent, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -121,12 +120,7 @@ export default function HeaderComponent({ user, lang }: { user: boolean, lang: '
           className="rounded-4xl transition-colors hover:bg-gray-400 active:bg-gray-600"
           href={`/${lang}/watchlist?page=1`}
         >
-          <Image
-            src="/icons/bookmark.svg"
-            alt={t('header.bookmark')}
-            width="40"
-            height="40"
-          />
+          <Bookmark className="p-1" size={40} color="red" />
         </Link>
         <UserComponent user={user ? true : false} lang={lang} />
       </div>
