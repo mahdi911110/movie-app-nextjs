@@ -1,0 +1,114 @@
+{
+  "header": {
+		"mainLogo": "Movie App",
+		"searchPlaceholder": "Search a movie...",
+		"bookmark": "Bookmark",
+		"logout": "Logout",
+		"profile": "Profile",
+		"login": "Login"
+	},
+	"footer": {
+		"poweredBy": "POWERED BY"
+	},
+	"hero": {
+		"seeInfo": "See Info",
+    "noOverview": "No overview found."
+	},
+	"category": {
+		"action": "Action",
+		"adventure": "Adventure",
+		"animation": "Animation",
+		"comedy": "Comedy",
+		"crime": "Crime",
+		"documentary": "Documentary",
+		"drama": "Drama",
+		"family": "Family",
+		"fantasy": "Fantasy",
+		"history": "History",
+		"horror": "Horror",
+		"music": "Music",
+		"mystery": "Mystery",
+		"romance": "Romance",
+		"scienceFiction": "Science Fiction",
+		"tvMovie": "TV Movie",
+		"thriller": "Thriller",
+		"war": "War",
+		"western": "Western"
+	},
+	"card": {
+		"addToWatchlist": "Add to watchlist",
+		"removeFromWatchlist": "Remove from watchlist",
+		"searchQuery": "Search result for:",
+		"searchGenre": "Result for genre:",
+		"searchCategory:": "Result for category:"
+	},
+	"error": {
+		"fetchMovies": "Could not fetch movies",
+    "fetchMovie": "Could not fetch movie",
+    "unauthorized": "You are not authorized",
+    "somethingWentWrong": "Something went wrong",
+    "reload": "Failed to load movies."
+	},
+	"page": {
+		"next": "Next",
+		"prev": "Previous",
+		"page": "Page:"
+	},
+	"profile": {
+		"profile": "PROFILE"
+	},
+	"public": {
+		"id": "ID:",
+		"seeMore": "See More",
+    "password": "Password:",
+    "passwordPlaceholder": "Enter password",
+    "login": "Login"
+	},
+  "auth": {
+    "email": "Email:",
+    "emailPlaceholder": "Enter email",
+    "username": "Username:",
+    "usernamePlaceholder": "Enter username",
+    "login": "LOGIN",
+    "backToHomePage": "Back to home page",
+    "usernameOrEmail": "Username or email:",
+    "usernameOrEmailPlaceholder": "Enter registered username or email",
+    "dontHaveAccount": "Don't have account?",
+    "signup": "SIGN UP",
+    "passwordAgain": "Type password again:",
+    "passwordAgainPlaceholder": "Enter password again",
+    "youHaveAccount": "You have account?",
+    "register": "Register"
+  },
+	"watchlist": {
+		"notLogin": "Please login to view your watchlist.",
+		"myWatchlist": "My Watchlist"
+	},
+	"movieDetail": {
+		"votes": "votes",
+		"overview": "Overview",
+		"status": "Status",
+		"popularity": "Popularity",
+		"originalLanguage": "Original Language",
+		"releaseDate": "Release Date",
+		"adult": "Adult",
+		"budget": "Budget",
+		"runtime": "Runtime",
+		"revenue": "Revenue",
+		"spokenLanguages": "Spoken Languages",
+		"productionCountries": "Production Countries",
+		"genres": "Genres",
+		"viewOnIMDB": "View On IMDb",
+		"viewHomePage": "View Home Page",
+		"companies": "Companies",
+		"yes": "Yes",
+		"no": "No"
+	},
+	"marketing": {
+		"upcoming": "Upcoming",
+		"popular": "Popular",
+		"topRated": "Top Rated",
+		"trending": "Trending",
+		"nowPlaying": "Now Playing"
+	}
+}

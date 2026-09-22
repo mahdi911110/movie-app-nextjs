@@ -1,0 +1,113 @@
+{
+  "header": {
+		"mainLogo": "فیلم اپ",
+		"searchPlaceholder": "جستجوی فیلم...",
+		"bookmark": "نشانه‌گذاری",
+		"logout": "خروج",
+		"profile": "نمایه",
+		"login": "ورود"
+	},
+	"footer": {
+		"poweredBy": "با پشتیبانی"
+	},
+	"hero": {
+		"seeInfo": "مشاهده اطلاعات بیشتر",
+    "noOverview": "هیچ خلاصه داستانی پیدا نشد."
+	},
+	"category": {
+		"action": "اکشن",
+		"adventure": "ماجراجویی",
+		"animation": "انیمیشن",
+		"comedy": "کمدی",
+		"crime": "جنایی",
+		"documentary": "مستند",
+		"drama": "درام",
+		"family": "خانوادگی",
+		"fantasy": "فانتزی",
+		"history": "تاریخی",
+		"horror": "ترسناک",
+		"music": "موسیقی",
+		"mystery": "رازآلود",
+		"romance": "عاشقانه",
+		"scienceFiction": "علمی‌تخیلی",
+		"tvMovie": "فیلم تلویزیونی",
+		"thriller": "هیجان‌انگیز",
+		"war": "جنگی",
+		"western": "وسترن"
+	},
+	"card": {
+		"addToWatchlist": "افزودن به لیست تماشا",
+		"searchQuery": "نتایج جستجو برای:",
+		"searchGenre": "نتایج ژانر:",
+		"searchCategory": "نتایج دسته‌بندی:"
+	},
+	"error": {
+		"fetchMovies": "دریافت فیلم‌ها ناموفق بود",
+    "fetchMovie": "دریافت فیلم‌ ناموفق بود",
+    "unauthorized": "شما وارد حساب کاربری نشده‌اید",
+    "somethingWentWrong": "مشکلی پیش آمده است",
+    "reload": "بارگذاری فیلم ها ناموفق بود."
+	},
+	"page": {
+		"next": "بعدی",
+		"prev": "قبلی",
+		"page": "صفحه:"
+	},
+	"profile": {
+		"profile": "نمایه"
+	},
+	"public": {
+		"id": "شناسه:",
+		"seeMore": "مشاهده بیشتر",
+    "password": "رمزعبور:",
+    "passwordPlaceholder": "رمزعبور را وارد کنید",
+    "login": "ورود"
+	},
+  "auth": {
+    "email": "ایمیل:",
+    "emailPlaceholder": "ایمیل را وارد کنید",
+    "username": "نام کاربری:",
+    "usernamePlaceholder": "نام کاربری را وارد کنید",
+    "login": "ورود",
+    "backToHomePage": "بازگشت به صفحه اصلی",
+    "usernameOrEmail": "نام کاربری یا ایمیل:",
+    "usernameOrEmailPlaceholder": "نام کاربری یا ایمیل را وارد کنید",
+    "dontHaveAccount": "حساب کاربری ندارید؟",
+    "signup": "ثبت نام",
+    "passwordAgain": "رمزعبور را دوباره بنویسید:",
+    "passwordAgainPlaceholder": "رمزعبور را دوباره وارد کنید",
+    "youHaveAccount": "حساب کاربری دارید؟",
+    "register": "ثبت"
+  },
+	"watchlist": {
+		"notLogin": "برای مشاهده لیست تماشا وارد حساب کاربری شوید.",
+		"myWatchlist": "لیست تماشای من"
+	},
+	"movieDetail": {
+		"votes": "رای",
+		"overview": "خلاصه داستان",
+		"status": "وضعیت",
+		"popularity": "محبوبیت",
+		"originalLanguage": "زبان اصلی",
+		"releaseDate": "تاریخ انتشار",
+		"adult": "دارای محتوای بزرگسالانه",
+		"budget": "بودجه",
+		"runtime": "مدت زمان",
+		"revenue": "فروش گیشه",
+		"spokenLanguages": "زبان های گفتاری",
+		"productionCountries": "کشور های تولیدکننده",
+		"genres": "ژانر ها",
+		"viewOnIMDB": "مشاهده در IMDb",
+		"viewHomePage": "مشاهده وبسایت رسمی",
+		"companies": "شرکت های تولیدکننده",
+		"yes": "بله",
+		"no": "خیر"
+	},
+	"marketing": {
+		"upcoming": "به‌زودی",
+		"popular": "محبوب",
+		"topRated": "بیشترین امتیاز",
+		"trending": "محبوب‌ترین‌ها",
+		"nowPlaying": "در حال اکران"
+	}
+}
