@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
   <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white">
   <img src="https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
 </p>
 
 A full-stack movie discovery web application built with **Next.js**, **TypeScript**, **React Query**, **TMDB API**, **SQLite**, and **Tailwind CSS**.
@@ -63,62 +64,142 @@ The application allows users to discover movies, search and filter by categories
 
 ## 📸 Preview
 
+
+### English Page
+
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/en/home.jpg)
 
-### Movie Details
+### Movie Details Page
 
-![Movie Details](screenshots/movie-details.png)
+![Movie Details Page](screenshots/en/movie-details.jpg)
 
-### Search / Category Page
+### Search Result Page
 
-![Movie Listing](screenshots/movies.png)
+![Search Result Page](screenshots/en/search-page.jpg)
 
-### Watchlist
+### Watchlist Page
 
-![Watchlist](screenshots/watchlist.png)
+![Watchlist Page](screenshots/en/watchlist.jpg)
 
-> Replace the screenshot paths above with the actual paths and filenames in your repository.
+### Login Page
+
+![Login Page](screenshots/en/login.jpg)
+
+### Signup Page
+
+![Signup Page](screenshots/en/signup.jpg)
+
+### Profile Page
+
+![Profile Page](screenshots/en/profile.jpg)
+
+### Persian Page
+
+### Home Page
+
+![Home Page](screenshots/fa/home.jpg)
+
+### Movie Details Page
+
+![Movie Details](screenshots/fa/movie-details.jpg)
+
+### Search Result Page
+
+![Search Result Page](screenshots/fa/search-page.jpg)
+
+### Watchlist Page
+
+![Watchlist Page](screenshots/fa/watchlist.jpg)
+
+### Login Page
+
+![Login Page](screenshots/fa/login.jpg)
+
+### Signup Page
+
+![Signup Page](screenshots/fa/signup.jpg)
+
+### Profile Page
+
+![Profile Page](screenshots/fa/profile.jpg)
+
 
 ## 📂 Project Structure
 
 ```text
 movie-app-nextjs/
 ├── public/
-│   ├── icons/
+│   ├── logo/
+│   │   └── tmdb.svg
 │   └── images/
+│       ├── no-company.png
+│       └── no-image.svg
+│
+├── screenshots/
+│   ├── fa/
+│   └── en/
 │
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/
-│   │   │   ├── (marketing)/
 │   │   │   ├── (auth)/
-│   │   │   └── ...
+│   │   │   ├── (marketing)/
+│   │   │   ├── (profile)/
+│   │   │   ├── Language.tsx
+│   │   │   └── layout.tsx
 │   │   │
 │   │   └── api/
 │   │       └── movies/
-│   │           ├── [...query]/
+│   │           ├── [lang]/
+│   │           │   ├── [..query]/
+│   │           │   │   └── route.ts
+│   │           │   └── detail/
+│   │           │       └── route.ts
 │   │           └── watchlist/
+│   │               └── route.ts
 │   │
 │   ├── components/
-│   │   ├── auth/
 │   │   ├── marketing/
-│   │   └── ...
+│   │   │   ├── card/
+│   │   │   ├── category/
+│   │   │   ├── error/
+│   │   │   ├── footer/
+│   │   │   ├── header/
+│   │   │   ├── hero/
+│   │   │   └── loading/
+│   │   │
+│   │   └── providers/
+│   │       └── Providers.tsx
 │   │
 │   ├── lib/
 │   │   ├── auth.ts
 │   │   ├── moviedb.ts
-│   │   └── ...
+│   │   ├── proxyAgent.ts
+│   │   ├── server.ts
+│   │   └── tmdb.ts
 │   │
 │   ├── types/
 │   │   └── types.ts
 │   │
-│   └── ...
+│   └── utils/
+│       └── locale/
+│           └── i18n/
+│               ├── en/
+│               │   └── en.json
+│               ├── fa/
+│               │   └── fa.json
+│               └── index.ts
 │
-├── public/
-├── .env.local
+├── .gintignore
+├── LICENSE
+├── eslint.config.mjs
+├── next.config.ts
+├── postcss.config.mjs
+├── tsconfig.json
 ├── package.json
+├── package.config.json
 └── README.md
 ```
 

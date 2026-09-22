@@ -40,7 +40,7 @@
 		"removeFromWatchlist": "Remove from watchlist",
 		"searchQuery": "Search result for:",
 		"searchGenre": "Result for genre:",
-		"searchCategory:": "Result for category:"
+		"searchCategory": "Result for category:"
 	},
 	"error": {
 		"fetchMovies": "Could not fetch movies",

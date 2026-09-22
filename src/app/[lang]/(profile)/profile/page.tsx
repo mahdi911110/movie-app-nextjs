@@ -23,7 +23,7 @@ export default async function ProfilePage({ params }: { params: Promise<{ lang: 
         </div>
         <div className="flex gap-1">
           <span className="font-bold">
-            {t('public.email')}
+            {t('auth.email')}
           </span>
           <span>
             {user.email}
@@ -31,7 +31,7 @@ export default async function ProfilePage({ params }: { params: Promise<{ lang: 
         </div>
         <div className="flex gap-1">
           <span className="font-bold">
-            {t('public.username')}
+            {t('auth.username')}
           </span>
           <span>
             {user.username}
