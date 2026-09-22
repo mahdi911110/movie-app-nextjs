@@ -84,13 +84,13 @@ export default function SignupForm({ lang }: { lang: 'fa' | 'en' }) {
           }
           <button
             disabled={isPending}
-            className="bg-black text-white cursor-pointer py-0.5 hover:opacity-70 active:opacity-50"
+            className={`bg-black rounded-sm flex justify-center text-white py-1 ${isPending ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer hover:opacity-70 active:opacity-50'}`}
             type="submit"
           >
             {isPending ?
-              <Loader size={18} color="white" />
-            :
-              t('auth.register')
+                <Loader size={18} color="white" />
+              :
+                t('auth.register')
             }
           </button>
         </form>
